@@ -35,9 +35,9 @@ public class AlarmClock {
     private Thread clock;
     
     // download "jaco-mp3-player" JAR
-    // change this MP3 directory w/ song of your choice
-    public static String path = "C:/Users/cjarn/Desktop/We the Kings vs Imagine Dragons - Its Time to Run Juliet.mp3";
-    MP3Player mp3 = new MP3Player(new File(path));
+    // change this MP3 directory w/ mp3 file of your choice
+    final static String PATH = "C:/Users/cjarn/Desktop/We the Kings vs Imagine Dragons - Its Time to Run Juliet.mp3";
+    MP3Player mp3 = new MP3Player(new File(PATH));
 
 	/**
 	 * Launch the application.
